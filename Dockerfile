@@ -1,6 +1,6 @@
 FROM debian:jessie-slim
 
-ENV VERSION=v7.1.0
+ENV VERSION=v7.5.0
 
 RUN apt-get update && \
   apt-get install -qq -y  curl \
